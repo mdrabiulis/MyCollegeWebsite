@@ -3,7 +3,7 @@ import Logo from "./Logo/Logo";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="">
             <Logo></Logo>
         </div>
     );
