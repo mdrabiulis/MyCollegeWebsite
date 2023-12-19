@@ -17,7 +17,7 @@ const Navbar = () => {
             <Logo></Logo>
             <nav>
                 {/* <ul className="rrr flex flex-col lg:flex-row pt-4 lg:pt-0 gap-4 lg:gap-8"> */}
-                <ul className={click?  ("active flex flex-col lg:flex-row pt-4 lg:pt-0 gap-4 lg:gap-8 "):("rrr flex flex-col lg:flex-row pt-4 lg:pt-0 gap-4 lg:gap-8")}>
+                <ul className={click?  ("active flex flex-col lg:flex-row pt-4 lg:pt-0 gap-4 lg:gap-8 ease-in-out duration-500"):("rrr flex flex-col lg:flex-row pt-4 lg:pt-0 gap-4 lg:gap-8 ease-in-out duration-500")}>
                     <li className="text-[#fff] hover:text-[#17cf97] duration-300 ease-out font-bold hover:underline">Home</li>
                     <li className="text-[#fff] hover:text-[#17cf97] duration-300 ease-out font-bold hover:underline">About</li>
                     <li className="text-[#fff] hover:text-[#17cf97] duration-300 ease-out font-bold hover:underline">Blogs</li>
